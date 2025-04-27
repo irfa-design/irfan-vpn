@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
           <Shield className="h-8 w-8 text-vpn-teal" />
-          <span className="font-bold text-xl text-vpn-navy dark:text-white">Freedom VPN</span>
+          <span className="font-bold text-xl text-vpn-navy dark:text-white">Irfan VPN</span>
         </Link>
         
         {/* Desktop Navigation */}

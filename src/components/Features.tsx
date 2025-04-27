@@ -1,47 +1,47 @@
 
 import React from 'react';
-import { Shield, Server, Globe, Lock, UserPlus, Zap, Layers, Settings } from 'lucide-react';
+import { Shield, Server, Globe, Lock, Network, Connection, Wifi, Cloud } from 'lucide-react';
 
 const features = [
   {
     icon: <Server className="h-10 w-10 text-vpn-blue" />,
-    title: 'One-Click Deployment',
-    description: 'Deploy your VPN server to AWS, DigitalOcean, Google Cloud or Azure with just a few clicks.'
+    title: 'OpenVPN Protocol',
+    description: 'Industry-standard VPN protocol with proven security and reliability.'
   },
   {
     icon: <Shield className="h-10 w-10 text-vpn-teal" />,
-    title: 'Military-Grade Encryption',
-    description: 'Your data is secured with AES-256 encryption, the same standard used by governments and security experts.'
+    title: 'AES-256-GCM Encryption',
+    description: 'Military-grade encryption for all your network traffic.'
   },
   {
-    icon: <UserPlus className="h-10 w-10 text-vpn-amber" />,
-    title: 'Multiple Users',
-    description: 'Create and manage user accounts for family members or team members easily.'
+    icon: <Network className="h-10 w-10 text-vpn-amber" />,
+    title: 'Kill Switch',
+    description: 'Automatic protection if VPN connection drops.'
   },
   {
     icon: <Globe className="h-10 w-10 text-vpn-blue" />,
-    title: 'Global Locations',
-    description: 'Deploy your VPN server in any region worldwide to access geo-restricted content.'
+    title: 'Global Servers',
+    description: 'Deploy in multiple regions for optimal performance.'
   },
   {
     icon: <Lock className="h-10 w-10 text-vpn-teal" />,
-    title: 'No-Logging Policy',
-    description: 'Your activities are never tracked or logged, ensuring complete privacy.'
+    title: 'No-Log Policy',
+    description: 'Your privacy is guaranteed with zero activity logging.'
   },
   {
-    icon: <Zap className="h-10 w-10 text-vpn-amber" />,
-    title: 'High Performance',
-    description: 'Experience fast connection speeds with optimized server configurations.'
+    icon: <Connection className="h-10 w-10 text-vpn-amber" />,
+    title: 'Split Tunneling',
+    description: 'Choose which apps use the VPN connection.'
   },
   {
-    icon: <Layers className="h-10 w-10 text-vpn-blue" />,
-    title: 'Open Source',
-    description: 'Built on trusted open-source VPN protocols and infrastructure that you can verify.'
+    icon: <Wifi className="h-10 w-10 text-vpn-blue" />,
+    title: 'Public WiFi Security',
+    description: 'Stay protected on untrusted networks.'
   },
   {
-    icon: <Settings className="h-10 w-10 text-vpn-teal" />,
-    title: 'Easy Management',
-    description: 'Intuitive dashboard to monitor and manage your VPN server with real-time statistics.'
+    icon: <Cloud className="h-10 w-10 text-vpn-teal" />,
+    title: 'Cloud Integration',
+    description: 'Easy deployment to major cloud providers.'
   }
 ];
 

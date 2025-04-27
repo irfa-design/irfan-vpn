@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { 
@@ -281,7 +280,7 @@ const DeploymentStep: React.FC<StepProps> = ({ onNext, onBack }) => {
   );
 };
 
-const SuccessStep: React.FC<StepProps> = ({ onBack }) => {
+const SuccessStep: React.FC<StepProps> = ({ onNext, onBack }) => {
   const ipAddress = "198.51.100.123";
   
   return (
