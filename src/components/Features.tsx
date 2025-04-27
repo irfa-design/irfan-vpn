@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Shield, Server, Globe, Lock, Network, Connection, Wifi, Cloud } from 'lucide-react';
+import { Shield, Server, Globe, Lock, Network, Link, Wifi, Cloud } from 'lucide-react';
 
 const features = [
   {
@@ -29,7 +28,7 @@ const features = [
     description: 'Your privacy is guaranteed with zero activity logging.'
   },
   {
-    icon: <Connection className="h-10 w-10 text-vpn-amber" />,
+    icon: <Link className="h-10 w-10 text-vpn-amber" />,
     title: 'Split Tunneling',
     description: 'Choose which apps use the VPN connection.'
   },
