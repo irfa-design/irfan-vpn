@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { 
@@ -359,7 +360,7 @@ const SetupWizard: React.FC = () => {
     <ConfigurationStep key="config" onNext={handleNext} onBack={handleBack} />,
     <UserSetupStep key="user" onNext={handleNext} onBack={handleBack} />,
     <DeploymentStep key="deploy" onNext={handleNext} onBack={handleBack} />,
-    <SuccessStep key="success" onBack={handleReset} />
+    <SuccessStep key="success" onNext={handleNext} onBack={handleReset} />
   ];
   
   return (
